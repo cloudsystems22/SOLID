@@ -1,0 +1,22 @@
+{
+  "name": "SOLID",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cloudsystems22/SOLID.git",
+  "author": "cloudsystems22 <cloudsystems22@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@types/express": "^4.17.8",
+    "@types/nodemailer": "^6.4.0",
+    "D": "^1.0.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.14",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.0.5",
+    "uuidv4": "^6.2.4"
+  }
+}
